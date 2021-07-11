@@ -1,4 +1,4 @@
-package yhjoo.corona_android
+package com.yhjoo.corona_android
 
 import org.junit.Test
 
