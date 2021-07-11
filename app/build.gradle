@@ -13,7 +13,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.com.yhjoo.corona_android"
+        applicationId "com.yhjoo.corona_android"
         minSdkVersion 24
         targetSdkVersion 30
         versionCode 1
@@ -21,6 +21,7 @@ android {
 
         resValue "string", "admob_app_id", apiKeyProperties['admob_app_id']
         resValue "string", "admob_banner_id", apiKeyProperties['admob_banner_id']
+        resValue "string", "google_map_key", apiKeyProperties['google_map_key']
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
