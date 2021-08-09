@@ -2,36 +2,53 @@
 
 Corona - Android Application
 
+## About this Project
+
+### Introduction
+
+### Function
+
 ## How to use
 
-1. local.properties에 
-admob_app_id = ""
-admob_banner_id = "" 
-google_map_key = ""
-추가
+### Prerequisites
 
-2. app/ google-services.json 파일 추가
+1. requires Firebase project [Site](https://console.firebase.google.com/?hl=ko)
 
-3. strings.yaml에 서버 urls 추가
+2. requires local server [Github](https://github.com/nogardj3/server_nodejs.git)
 
-## Libraries
+### Installation
 
-Kotlin - Coroutine
+1.  Clone the repo
 
-RxJava
+    ```sh
+    git clone https://github.com/nogardj3/server_nodejs
+    ```
 
-RxAndroid
+2.  Copy google-services.json to ./app
 
-Glide
+    ```sh
+    cp your_service_account_key.json ./app/google-services.json
+    ```
 
-Retrofit
+3.  add key to local.properties
 
-## APIs
+    ```
+    admob_app_id = ""
+    admob_banner_id = ""
+    google_map_key = ""
+    ```
 
-GoogleMaps
+4.  add server url to values/string.xml
 
-OpenWeather
+    ```xml
+    <string name="server_url">http://10.0.2.2:4000/chef/</string>
+    ```
 
-Naver News
+## Tech stack & Open-source libraries
 
-Naver QR Checkin Crawling
+-   [AAC DataBinding, Lifecycle, LiveData, Room, ViewModel](https://developer.android.com/guide?hl=ko)
+-   [Coroutine](https://developer.android.com/kotlin/coroutines)
+-   [Retrofit2](https://square.github.io/retrofit/)
+-   [Glide](https://github.com/bumptech/glide)
+-   [Firebase(Auth, Admob, Analytics, Crashlytics, Cloud Messaging, Storage, Maps)](https://firebase.google.com/docs?hl=ko)
+    ~~- [RxJava2 / RxAndriod](http://reactivex.io/)~~
