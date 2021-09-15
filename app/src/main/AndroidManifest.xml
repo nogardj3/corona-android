@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Corona_android">
         <activity
-            android:name=".activities.TestJavaActivity"
+            android:name=".activities.MainActivity"
             android:exported="true"
             android:label="@string/title_activity_main"
             android:theme="@style/Theme.Corona_android.NoActionBar">
