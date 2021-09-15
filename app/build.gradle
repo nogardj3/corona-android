@@ -28,7 +28,7 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -46,10 +46,8 @@ android {
         jvmTarget = '1.8'
     }
 
-    sourceSets { main.java.srcDirs += 'src/main/kotlin' }
-
     buildFeatures {
-        viewBinding = true
+        viewBinding true
     }
 }
 
