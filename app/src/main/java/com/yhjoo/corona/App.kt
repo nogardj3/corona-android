@@ -8,8 +8,6 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatDelegate
-import com.orhanobut.logger.AndroidLogAdapter
-import com.orhanobut.logger.Logger
 import io.reactivex.rxjava3.plugins.RxJavaPlugins
 import java.io.IOException
 import java.net.SocketException
@@ -26,8 +24,6 @@ class App : Application() {
     @SuppressLint("ShowToast")
     override fun onCreate() {
         super.onCreate()
-
-        Logger.addLogAdapter(AndroidLogAdapter())
 
         RxJavaPlugins.setErrorHandler { e: Throwable ->
             if (e is IOException || e is SocketException) {
