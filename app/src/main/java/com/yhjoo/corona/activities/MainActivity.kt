@@ -9,9 +9,8 @@ import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
-
+import com.yhjoo.corona.R
 import com.yhjoo.corona.databinding.AMainBinding
-import com.yhjoo.corona.utils.Utils
 
 
 class MainActivity : AppCompatActivity(), OnMapReadyCallback {
