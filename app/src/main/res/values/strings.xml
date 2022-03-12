@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">corona_android</string>
+    <string name="app_name">corona</string>
     <string name="title_activity_maps">Map</string>
     <string name="server_ip">http://34.64.70.59</string>
     <string name="title_activity_main">MainActivity</string>

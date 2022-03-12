@@ -1,4 +1,4 @@
-package com.yhjoo.corona_android
+package com.yhjoo.corona
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -10,7 +10,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatDelegate
 import com.orhanobut.logger.AndroidLogAdapter
 import com.orhanobut.logger.Logger
-import io.reactivex.rxjava3.exceptions.UndeliverableException
 import io.reactivex.rxjava3.plugins.RxJavaPlugins
 import java.io.IOException
 import java.net.SocketException

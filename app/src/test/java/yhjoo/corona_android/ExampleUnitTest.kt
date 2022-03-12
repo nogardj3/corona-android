@@ -1,4 +1,4 @@
-package com.yhjoo.corona_android
+package com.yhjoo.corona
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

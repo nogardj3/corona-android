@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "corona_android"
+rootProject.name = "corona"
